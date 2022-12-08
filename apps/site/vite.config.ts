@@ -15,7 +15,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@assets': resolve('assets'),
-      '@components': resolve('src/components')
+      '@components': resolve('src/components'),
+      '@router': resolve('src/router'),
     }
   }
 });

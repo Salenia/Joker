@@ -1,13 +1,11 @@
-import Header from '@components/Header';
+import { useAppRoutes } from '@router';
 import type { Component } from 'solid-js';
 
 
 const App: Component = () => {
+  const Routes = useAppRoutes();
   return (
-    <>
-      <Header />
-      <h1 class='text-slate-300'>Hello world</h1>
-    </>
+    <Routes />
   );
 };
 

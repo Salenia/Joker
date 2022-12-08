@@ -18,7 +18,9 @@
     "paths": {
       "@assets/*": ["./assets/*"],
       "@components": ["./src/components"],
-      "@components/*": ["./src/components/*"]
+      "@components/*": ["./src/components/*"],
+      "@router": ["./src/router"],
+      "@router/*": ["./src/router/*"]
     }
   }
 }

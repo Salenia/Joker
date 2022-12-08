@@ -3,5 +3,10 @@ import { render } from 'solid-js/web';
 
 import './index.css';
 import App from './App';
+import { Router } from '@solidjs/router';
 
-render(() => <App />, document.body);
+render(() => (
+    <Router>
+        <App />
+    </Router>
+), document.body);
