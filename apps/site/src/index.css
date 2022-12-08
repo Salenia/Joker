@@ -12,6 +12,9 @@
   body {
     @apply dark:bg-dark-bg dark:text-dark-fg;
   }
+  h1 {
+    @apply text-xl font-bold
+  }
 }
 
 body {
