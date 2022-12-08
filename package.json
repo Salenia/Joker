@@ -1,0 +1,15 @@
+{
+  "name": "joker",
+  "private": true,
+  "repository": "https://github.com/Salenia/Joker.git",
+  "author": "Salenia <vsreui123456@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:site": "yarn workspace @joker/site dev"
+  },
+  "workspaces": [
+    "@joker/*",
+    "services/*",
+    "apps/*"
+  ]
+}
