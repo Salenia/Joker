@@ -1,3 +1,4 @@
+import ExploreSection from "@components/Home/ExploreSection";
 import HeroSection from "@components/Home/HeroSection";
 import SponsorSection from "@components/Home/SponsorSection";
 import VisionSection from "@components/Home/VisionSection";
@@ -11,6 +12,7 @@ const Home: Component = () => {
             <HeroSection />
             <VisionSection />
             <SponsorSection />
+            <ExploreSection />
         </PageLayout>
     );
 }
