@@ -1,0 +1,6 @@
+.explore-card {
+    background:
+        linear-gradient(to bottom, #24242400, #1c1c1c),
+        var(--card-img);
+    background-size: cover;
+}
