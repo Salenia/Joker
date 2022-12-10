@@ -1,8 +1,9 @@
+import Footer from "@components/Footer";
 import Header from "@components/Header";
 import { ParentComponent } from "solid-js";
 
 
-const PageLayout: ParentComponent<{class?: string;}> = props => {
+const PageLayout: ParentComponent<{ class?: string; }> = props => {
 
 
     return (
@@ -11,6 +12,7 @@ const PageLayout: ParentComponent<{class?: string;}> = props => {
             <main class={props.class}>
                 {props.children}
             </main>
+            <Footer />
         </>
     )
 }

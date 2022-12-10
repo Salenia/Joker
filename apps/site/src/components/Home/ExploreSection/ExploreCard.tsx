@@ -14,7 +14,7 @@ interface IProps {
 const ExploreCard: Component<IProps> = props => {
 
     return (
-        <div class='rounded-xl md:p-[4px] md:bg-brand-dark-150 cursor-pointer hover:scale-105 transition-all md:w-[28vw]'>
+        <div class='rounded-xl md:p-[4px] md:bg-brand-dark-150 cursor-pointer hover:scale-105 transition-all md:min-w-[28vw]'>
             <div
                 title={props.title}
                 class='explore-card rounded-xl h-[176px] w-full flex flex-col align-bottom p-4 md:h-[220px]'

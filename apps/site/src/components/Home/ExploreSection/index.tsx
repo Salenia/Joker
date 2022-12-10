@@ -12,7 +12,7 @@ const ExploreSection = () => {
             <Wave class='bg-brand-dark-100' />
             <section class='bg-brand-dark p-4 px-8 md:px-12'>
                 <h2 class='font-bold italic text-3xl mb-4 md:mb-12'>Explore More</h2>
-                <div class='flex flex-col gap-4 md:flex-row md:justify-between'>
+                <div class='flex flex-col gap-4 md:flex-row md:justify-between pb-8'>
                     <ExploreCard
                         src={season}
                         title='Season'
