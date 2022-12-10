@@ -1,0 +1,13 @@
+.top-blob {
+    mask-image: url(@assets/blobs/TopBlob.svg);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: 95% 25%;
+}
+
+.bottom-blob {
+    mask-image: url(@assets/blobs/BotBlob.svg);
+    mask-repeat: no-repeat;
+    mask-position: 5% 65%;
+    mask-size: contain;
+}
