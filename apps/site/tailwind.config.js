@@ -8,8 +8,11 @@ module.exports = {
     extend: {
       colors: {
         'dark-bg': '#242424',
-        'dark-fg': '#F5F9FD'
-      }
+        'dark-fg': '#F5F9FD',
+        'brand-dark': '#EC3131',
+        'brand-dark-100': '#EA5353',
+        'brand-dark-200': '#F17272',
+      },
     },
   },
   plugins: [],

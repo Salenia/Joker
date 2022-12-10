@@ -1,3 +1,4 @@
+import HeroSection from "@components/Home/HeroSection";
 import PageLayout from "@router/layouts/Page";
 import { Component } from "solid-js";
 
@@ -5,7 +6,7 @@ const Home: Component = () => {
 
     return (
         <PageLayout>
-            Home Page
+            <HeroSection />
         </PageLayout>
     );
 }

@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 const Header: Component = props => {
 
     return (
-        <header class='sticky top-0'>
+        <header class='relative'>
             <Waves />
             <div class='flex justify-between items-center w-screen absolute top-0 left-0 p-6'>
                 <div class='flex items-center gap-2 z-100'>
