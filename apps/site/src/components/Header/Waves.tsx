@@ -9,7 +9,7 @@ const Waves: Component = () => {
     return (
         <>
             <MobileWaves class='w-screen md:hidden'/>
-            <DesktopWaves class='w-full hidden md:block'/>
+            <DesktopWaves class='w-full hidden md:block md:absolute'/>
         </>
     )
 }

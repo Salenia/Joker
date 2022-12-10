@@ -10,6 +10,7 @@ module.exports = {
         'dark-bg': '#242424',
         'dark-fg': '#F5F9FD',
         'brand-dark': '#EC3131',
+        'brand-dark-50': '#DF3030',
         'brand-dark-100': '#EA5353',
         'brand-dark-200': '#F17272',
       },
